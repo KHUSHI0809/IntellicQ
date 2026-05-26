@@ -1,128 +1,12 @@
-## This is a project for Intellicq that won us (Team Develomers) HAck-Nu-Thon 5.0. First Price!
-
-
-## LLM-Powered Adaptive Learning System
-
-An intelligent micro-learning ecosystem that combines **LLMs**, **Agentic AI workflows**, **Retrieval-Augmented Generation (RAG)**, **Natural Language Processing**, and **Reinforcement Learning** to deliver highly personalized educational experiences.
-
-**40% learner accessibility improvement · 25% course completion boost · 35% engagement increase**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![LangChain](https://img.shields.io/badge/LangChain-Agentic_AI-green?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-LLM-black?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-Vector_Search-orange?style=for-the-badge)
-
-</div>
-# Overview
-
-**IntelliCQ** is an AI-powered adaptive micro-learning platform designed to personalize educational experiences using modern Artificial Intelligence techniques.
-
-The system integrates:
-
-- Large Language Models (LLMs)
-- Agentic AI workflows
-- Retrieval-Augmented Generation (RAG)
-- NLP-based semantic tagging
-- Reinforcement Learning personalization
-- AI safety guardrails
-
-The platform continuously adapts educational content according to learner behavior, quiz performance, interaction patterns, and engagement analytics.
-
----
-
-# Features
-
-## Intelligent Learning Personalization
-- Dynamic difficulty scaling
-- Adaptive content recommendation
-- Personalized learning pathways
-- AI-generated quizzes and summaries
-
-## Agentic AI Workflow
-- Multi-agent orchestration
-- Context-aware tutoring
-- Automated educational planning
-- Intelligent response sequencing
-
-## NLP-Based Content Processing
-- Semantic topic extraction
-- Keyword tagging
-- Transcript analysis
-- Learning objective detection
-- Educational summarization
-
-## Automated Transcript Generation
-- AI-generated transcripts from educational videos
-- Topic segmentation
-- Timestamp generation
-- Searchable notes and summaries
-
-## Retrieval-Augmented Generation (RAG)
-- Context-grounded educational responses
-- Reduced hallucinations
-- Semantic search capabilities
-- Personalized contextual tutoring
-
-## Reinforcement Learning Feedback Loop
-- Real-time learner adaptation
-- Engagement optimization
-- Dynamic quiz generation
-- Learning pace optimization
-
-## AI Safety Guardrails
-- Prompt injection protection
-- Hallucination filtering
-- Toxicity moderation
-- Content appropriateness validation
-
----
-
-# Architecture
-
-```text
-+---------------------------------------------------+
-|                 Frontend Interface                |
-|          React / Next.js / TypeScript             |
-+-------------------------+-------------------------+
-                          |
-                          v
-+---------------------------------------------------+
-|                 Backend API Layer                 |
-|               FastAPI / Flask APIs                |
-+-------------------------+-------------------------+
-                          |
-      ---------------------------------------------------------
-      |                      |                               |
-      v                      v                               v
-+-------------+     +------------------+       +------------------+
-| LLM Engine  |     | NLP Processing   |       | RL Personalizer  |
-| GPT Models  |     | Semantic Tagging |       | Adaptive Learning|
-+-------------+     +------------------+       +------------------+
-      |                      |                               |
-      ---------------------------------------------------------
-                          |
-                          v
-+---------------------------------------------------+
-|                 RAG Knowledge Base                |
-|      Vector DB + Embeddings + Semantic Search     |
-+---------------------------------------------------+
-                          |
-                          v
-+---------------------------------------------------+
-|                 Database & Storage                |
-|          PostgreSQL / MongoDB / VectorDB          |
-+---------------------------------------------------+
-
-
-````markdown
-# IntelliCQ – Intelligent Micro-Learning Platform
+# IntelliCQ — Intelligent Micro-Learning Platform
 
 <div align="center">
 
-## LLM-Powered Adaptive Learning System
+### 🏆 First Place — Hack-Nu-Thon 5.0 | Team Develomers
 
-An intelligent micro-learning ecosystem that combines **LLMs**, **Agentic AI workflows**, **Retrieval-Augmented Generation (RAG)**, **Natural Language Processing**, and **Reinforcement Learning** to deliver highly personalized educational experiences.
+**LLM-Powered Adaptive Learning System**
+
+An intelligent micro-learning ecosystem combining **LLMs**, **Agentic AI workflows**, **RAG**, **NLP**, and **Reinforcement Learning** to deliver highly personalized educational experiences.
 
 **40% learner accessibility improvement · 25% course completion boost · 35% engagement increase**
 
@@ -136,95 +20,56 @@ An intelligent micro-learning ecosystem that combines **LLMs**, **Agentic AI wor
 
 ---
 
-# Table of Contents
+## 📌 Overview
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [AI Workflow](#ai-workflow)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Project](#running-the-project)
-- [RAG Pipeline](#rag-pipeline)
-- [Reinforcement Learning Loop](#reinforcement-learning-loop)
-- [Security & Guardrails](#security--guardrails)
-- [API Endpoints](#api-endpoints)
-- [Performance Metrics](#performance-metrics)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [Author](#author)
+**IntelliCQ** is an AI-powered adaptive micro-learning platform that personalizes educational experiences using modern AI techniques. The platform continuously adapts content based on learner behavior, quiz performance, interaction patterns, and engagement analytics.
+
+Core capabilities:
+- Large Language Models (LLMs) for intelligent tutoring
+- Agentic AI workflows with multi-agent orchestration
+- Retrieval-Augmented Generation (RAG) for grounded responses
+- NLP-based semantic tagging and transcript generation
+- Reinforcement Learning for real-time personalization
+- AI safety guardrails (prompt injection, hallucination filtering, content moderation)
 
 ---
 
-# Overview
+## ✨ Features
 
-**IntelliCQ** is an AI-powered adaptive micro-learning platform designed to personalize educational experiences using modern Artificial Intelligence techniques.
-
-The system integrates:
-
-- Large Language Models (LLMs)
-- Agentic AI workflows
-- Retrieval-Augmented Generation (RAG)
-- NLP-based semantic tagging
-- Reinforcement Learning personalization
-- AI safety guardrails
-
-The platform continuously adapts educational content according to learner behavior, quiz performance, interaction patterns, and engagement analytics.
-
----
-
-# Features
-
-## Intelligent Learning Personalization
-- Dynamic difficulty scaling
-- Adaptive content recommendation
-- Personalized learning pathways
+### 🎯 Intelligent Learning Personalization
+- Dynamic difficulty scaling based on learner performance
+- Adaptive content recommendation and personalized learning pathways
 - AI-generated quizzes and summaries
 
-## Agentic AI Workflow
-- Multi-agent orchestration
-- Context-aware tutoring
-- Automated educational planning
-- Intelligent response sequencing
+### 🤖 Agentic AI Workflow
+- Multi-agent orchestration for context-aware tutoring
+- Automated educational planning and intelligent response sequencing
 
-## NLP-Based Content Processing
-- Semantic topic extraction
-- Keyword tagging
-- Transcript analysis
-- Learning objective detection
-- Educational summarization
+### 🧠 NLP-Based Content Processing
+- Semantic topic extraction and keyword tagging
+- Transcript analysis, learning objective detection, and educational summarization
 
-## Automated Transcript Generation
+### 📝 Automated Transcript Generation
 - AI-generated transcripts from educational videos
-- Topic segmentation
-- Timestamp generation
-- Searchable notes and summaries
+- Topic segmentation, timestamp generation, and searchable notes
 
-## Retrieval-Augmented Generation (RAG)
-- Context-grounded educational responses
-- Reduced hallucinations
-- Semantic search capabilities
-- Personalized contextual tutoring
+### 🔍 Retrieval-Augmented Generation (RAG)
+- Context-grounded educational responses with reduced hallucinations
+- Semantic search across the knowledge base for personalized tutoring
 
-## Reinforcement Learning Feedback Loop
-- Real-time learner adaptation
-- Engagement optimization
-- Dynamic quiz generation
-- Learning pace optimization
+### 🔄 Reinforcement Learning Feedback Loop
+- Real-time learner adaptation and engagement optimization
+- Dynamic quiz generation and learning pace adjustment
 
-## AI Safety Guardrails
-- Prompt injection protection
-- Hallucination filtering
-- Toxicity moderation
-- Content appropriateness validation
+### 🔒 AI Safety Guardrails
+- Prompt injection protection and hallucination filtering
+- Toxicity moderation and content appropriateness validation
 
 ---
 
-# Architecture
+## 🏗️ Architecture
 
-```text
+```
 +---------------------------------------------------+
 |                 Frontend Interface                |
 |          React / Next.js / TypeScript             |
@@ -243,8 +88,6 @@ The platform continuously adapts educational content according to learner behavi
 | LLM Engine  |     | NLP Processing   |       | RL Personalizer  |
 | GPT Models  |     | Semantic Tagging |       | Adaptive Learning|
 +-------------+     +------------------+       +------------------+
-      |                      |                               |
-      ---------------------------------------------------------
                           |
                           v
 +---------------------------------------------------+
@@ -257,57 +100,11 @@ The platform continuously adapts educational content according to learner behavi
 |                 Database & Storage                |
 |          PostgreSQL / MongoDB / VectorDB          |
 +---------------------------------------------------+
-````
+```
 
----
+### AI Agent Workflow
 
-# Tech Stack
-
-## Frontend
-
-* React.js
-* Next.js
-* TypeScript
-* Tailwind CSS
-
-## Backend
-
-* Python
-* FastAPI / Flask
-* REST APIs
-
-## AI & Machine Learning
-
-* OpenAI GPT Models
-* LangChain
-* Hugging Face Transformers
-* Reinforcement Learning
-* NLP Pipelines
-
-## NLP Libraries
-
-* spaCy
-* NLTK
-* Transformers
-* Scikit-learn
-
-## Database
-
-* PostgreSQL
-* MongoDB
-* Pinecone / ChromaDB / FAISS
-
-## Deployment & DevOps
-
-* Docker
-* GitHub Actions
-* AWS / Vercel / Render
-
----
-
-# AI Workflow
-
-```text
+```
 Learner Input
       ↓
 Intent Detection Agent
@@ -322,58 +119,51 @@ Guardrail Validation Layer
       ↓
 Personalized Educational Output
 ```
-# Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/KHUSHI0809/IntellicQ.git
-
-cd IntellicQ
-```
 
 ---
-## Backend Setup
 
-### Create Virtual Environment
+## 🛠️ Tech Stack
+
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React.js, Next.js, TypeScript, Tailwind CSS |
+| **Backend** | Python, FastAPI, Flask, REST APIs |
+| **AI & ML** | OpenAI GPT, LangChain, HuggingFace Transformers, Reinforcement Learning |
+| **NLP** | spaCy, NLTK, Transformers, scikit-learn |
+| **Databases** | PostgreSQL, MongoDB, Pinecone / ChromaDB / FAISS |
+| **DevOps** | Docker, GitHub Actions, AWS / Vercel / Render |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/KHUSHI0809/IntelliCQ.git
+cd IntelliCQ
+```
+
+### 2. Backend Setup
+
+```bash
+# Create and activate virtual environment
 python -m venv venv
-```
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
 
-### Activate Environment
-
-#### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-#### macOS/Linux
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
 ```
 
----
-
-## Frontend Setup
+### 3. Frontend Setup
 
 ```bash
 cd frontend
-
 npm install
 ```
 
----
-
-# Environment Variables
+### 4. Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -385,172 +175,102 @@ VECTOR_DB_URL=your_vector_database
 JWT_SECRET=your_secret_key
 ```
 
----
-
-# Running the Project
-
-## Start Backend
+### 5. Run the Project
 
 ```bash
+# Backend
 uvicorn main:app --reload
-```
 
-OR
-
-```bash
-python app.py
-```
-
----
-
-## Start Frontend
-
-```bash
+# Frontend (in a separate terminal)
+cd frontend
 npm run dev
 ```
 
 ---
 
-# RAG Pipeline
+## 🔍 RAG Pipeline
 
-```text
-Educational Content
-        ↓
-Text Chunking
-        ↓
-Embedding Generation
-        ↓
-Vector Database Storage
-        ↓
-Semantic Search
-        ↓
-Relevant Context Retrieval
-        ↓
+```
+Educational Content → Text Chunking → Embedding Generation
+      ↓
+Vector Database Storage → Semantic Search → Context Retrieval
+      ↓
 LLM-Augmented Response
 ```
 
-## Benefits
-
-* Reduced hallucinations
-* Improved contextual accuracy
-* Faster information retrieval
-* Personalized explanations
+**Benefits:** Reduced hallucinations · Improved contextual accuracy · Personalized explanations
 
 ---
 
-# Reinforcement Learning Loop
+## 🔄 Reinforcement Learning Loop
 
-The RL engine continuously adapts the learning experience based on:
+The RL engine adapts in real time based on: quiz performance, session duration, interaction frequency, completion rate, and learner engagement.
 
-* Quiz performance
-* Session duration
-* Interaction frequency
-* Completion rate
-* Learner engagement
-
-## RL Objective
-
-```text
+```
 Reward = Engagement + Accuracy + Completion - Fatigue
 ```
 
-## Adaptive Actions
-
-* Increase/decrease difficulty
-* Adjust lesson duration
-* Recommend revision modules
-* Personalize learning pace
+**Adaptive actions:** Increase/decrease difficulty · Adjust lesson duration · Recommend revision modules · Personalize learning pace
 
 ---
 
-# Security & Guardrails
+## 🔒 Security & Guardrails
 
-## Prompt Injection Protection
-
-* Input sanitization
-* Unsafe prompt detection
-* Instruction override prevention
-
-## Hallucination Filtering
-
-* Retrieval grounding
-* Confidence-based validation
-* Response verification
-
-## Content Safety
-
-* Toxicity filtering
-* Harmful content moderation
-* Educational appropriateness checks
-
-## Authentication
-
-* JWT authentication
-* Role-based access control
-* Secure API authorization
+- **Prompt Injection Protection** — input sanitization, unsafe prompt detection
+- **Hallucination Filtering** — retrieval grounding, confidence-based validation
+- **Content Safety** — toxicity filtering, educational appropriateness checks
+- **Authentication** — JWT tokens, role-based access control
 
 ---
 
-# API Endpoints
+## 📡 API Endpoints
 
-## Authentication
+### Authentication
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register user |
+| POST | `/api/auth/login` | Login user |
+| GET | `/api/auth/profile` | User profile |
 
-| Method | Endpoint             | Description   |
-| ------ | -------------------- | ------------- |
-| POST   | `/api/auth/register` | Register user |
-| POST   | `/api/auth/login`    | Login user    |
-| GET    | `/api/auth/profile`  | User profile  |
+### AI Services
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/ai/chat` | AI tutoring |
+| POST | `/api/ai/transcript` | Generate transcript |
+| POST | `/api/ai/recommend` | Learning recommendations |
+| POST | `/api/ai/quiz` | Adaptive quiz generation |
 
----
-
-## AI Services
-
-| Method | Endpoint             | Description              |
-| ------ | -------------------- | ------------------------ |
-| POST   | `/api/ai/chat`       | AI tutoring              |
-| POST   | `/api/ai/transcript` | Generate transcript      |
-| POST   | `/api/ai/recommend`  | Learning recommendations |
-| POST   | `/api/ai/quiz`       | Adaptive quiz generation |
-
----
-
-## Learning Modules
-
-| Method | Endpoint                | Description        |
-| ------ | ----------------------- | ------------------ |
-| GET    | `/api/modules`          | Fetch modules      |
-| POST   | `/api/modules/generate` | Generate AI module |
-| GET    | `/api/modules/:id`      | Module details     |
+### Learning Modules
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/modules` | Fetch modules |
+| POST | `/api/modules/generate` | Generate AI module |
+| GET | `/api/modules/:id` | Module details |
 
 ---
 
-# Performance Metrics
+## 📊 Performance Metrics
 
-| Metric                 | Improvement          |
-| ---------------------- | -------------------- |
-| Learner Accessibility  | 40%                  |
-| Course Completion Rate | 25%                  |
-| User Engagement        | 35%                  |
-| Knowledge Retention    | Increased            |
-| Adaptive Accuracy      | Improved dynamically |
-
----
-
-# Future Enhancements
-
-* Voice-enabled tutoring
-* Multi-modal learning
-* AI-generated visual explanations
-* Gamification system
-* Emotion-aware learning adaptation
-* Federated learning integration
-* Multilingual tutoring
+| Metric | Result |
+|--------|--------|
+| Learner Accessibility | +40% |
+| Course Completion Rate | +25% |
+| User Engagement | +35% |
+| Hallucination Rate | Reduced via RAG grounding |
+| Adaptive Accuracy | Dynamically improved via RL |
 
 ---
 
-# Keywords
+## 🔮 Future Enhancements
 
-`LLMs` `Agentic AI` `RAG` `NLP` `Reinforcement Learning` `LangChain` `Adaptive Learning` `Micro-Learning` `Educational AI`
+- Voice-enabled tutoring and multi-modal learning
+- AI-generated visual explanations and gamification
+- Emotion-aware learning adaptation
+- Federated learning integration
+- Multilingual tutoring support
 
-```
+---
 
+## 🏷️ Topics
+
+`llm` `agentic-ai` `rag` `nlp` `reinforcement-learning` `langchain` `adaptive-learning` `micro-learning` `educational-ai` `openai` `fastapi` `react`
