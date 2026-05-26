@@ -1,8 +1,5 @@
 ## This is a project for Intellicq that won us (Team Develomers) HAck-Nu-Thon 5.0. First Price!
 
-# IntelliCQ – Intelligent Micro-Learning Platform
-
-<div align="center">
 
 ## LLM-Powered Adaptive Learning System
 
@@ -17,31 +14,6 @@ An intelligent micro-learning ecosystem that combines **LLMs**, **Agentic AI wor
 ![RAG](https://img.shields.io/badge/RAG-Vector_Search-orange?style=for-the-badge)
 
 </div>
-
----
-
-# Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [AI Workflow](#ai-workflow)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Project](#running-the-project)
-- [RAG Pipeline](#rag-pipeline)
-- [Reinforcement Learning Loop](#reinforcement-learning-loop)
-- [Security & Guardrails](#security--guardrails)
-- [API Endpoints](#api-endpoints)
-- [Performance Metrics](#performance-metrics)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [Author](#author)
-
----
-
 # Overview
 
 **IntelliCQ** is an AI-powered adaptive micro-learning platform designed to personalize educational experiences using modern Artificial Intelligence techniques.
