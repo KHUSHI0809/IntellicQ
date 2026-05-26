@@ -1,4 +1,4 @@
-# IntelliCQ — Intelligent Micro-Learning Platform
+# IntellicQ — Intelligent Micro-Learning Platform
 
 <div align="center">
 
