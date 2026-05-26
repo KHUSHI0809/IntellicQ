@@ -1,1 +1,1 @@
-## This is a project for IntecclitiQ that won us (Team Develomers) HAck-Nu-Thon 5.0
+## This is a project for Intelliq that won us (Team Develomers) HAck-Nu-Thon 5.0. First Price!
